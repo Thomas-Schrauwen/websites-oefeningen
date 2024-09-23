@@ -1,0 +1,39 @@
+body{
+    font-style: arial;
+}
+
+.section{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+#section1{
+    background-color: #e6a2a2;
+    color: #600;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#section2{
+    background-color: #a2c4e6;
+    color: #004080;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#section3{
+    background-color: #a2e6c4;
+    color: #00663d;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+  

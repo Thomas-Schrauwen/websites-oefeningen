@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    margin: 20px 0;
+}
+
+table.border{
+    margin: 1em;
+    border: solid 2px black;
+    border-collapse: collapse;
+}
+table.border th{
+    background-color: lightgray;
+    border: solid 2px black;
+    padding: 5px;
+}
+
+table.border td{
+    border: solid 2px black;
+    padding: 25px;
+}
+
+table.border td.red{
+    background-color: red;
+}
+
+table.border td.green{
+    background-color: lightgreen;
+}
+
+table.border th.one{
+    width: 200px;
+}
+
+table.border th.two{
+    width: 100px;
+}
+

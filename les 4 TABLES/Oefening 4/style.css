@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+table{
+    margin: 20px 0;
+}
+
+caption{
+    padding: 10px;
+    caption-side: bottom;
+}
+
+h1{
+    color: orange;
+    font-weight: bold;
+}
+
+table.border{
+    margin: 1em;
+    border: solid 1px lightgray;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table.border th{
+    border: solid 1px lightgray;
+    padding: 5px;
+    font-weight: bold;
+}
+
+table.border td{
+    border: solid 1px lightgray;
+    padding: 25px;
+}
+
+#tm{
+    width: 150px;
+}
+
+table.border tr{
+    height: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table.border td.startdag{
+    color: white;
+    background-color: orange;
+}
+
+.space-mono-regular-italic {
+    font-family: "Space Mono", system-ui;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 32px;
+    color: white;
+    background-color: orange;
+  }

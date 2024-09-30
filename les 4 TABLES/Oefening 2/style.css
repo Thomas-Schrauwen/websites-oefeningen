@@ -1,0 +1,38 @@
+table{
+    margin: 20px 0;
+    
+}
+
+table.border{
+    margin: 1em;
+    border: solid 1px darkblue;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+table.border tr{
+    height: 50px;
+}
+
+table.border tr.firstrow{
+    background-color: rgb(251, 100, 48);
+    
+}
+
+table.border th{
+    border: solid 1px darkblue;
+    padding: 5px;
+    color: white;
+}
+
+table.border th.dag{
+    background-color: #009cab;
+    width: 75px;
+}
+
+table.border td{
+    border: solid 1px darkblue;
+    padding: 25px;
+    font-weight: 900;
+}

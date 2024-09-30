@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form
+{
+    width: 50%;
+}
+
+input{
+    display: block;
+    border-radius: 15px;
+    box-shadow: 5px 5px lightgrey;
+    margin: 5px;
+}
+

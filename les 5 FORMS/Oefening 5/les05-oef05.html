@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>les05-oef05</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+      <div>
+        <label for="voornaam">Voornaam:</label>
+        <input
+          type="text"
+          name="voornaam"
+          id="voornaam"
+          placeholder="Voornaam"
+          class="input"
+        />
+      </div>
+      <div>
+        <label for="familienaam">Familienaam:</label>
+        <input
+          type="text"
+          name="familienaam"
+          id="familienaam"
+          placeholder="Familienaam"
+          class="input"
+        />
+      </div>
+      <div>
+        <label for="adres">Adres:</label>
+        <input
+          type="text"
+          name="adres"
+          id="adres"
+          placeholder="Adres"
+          class="input"
+        />
+      </div>
+      <div>
+        <label for="provincie">Provincie:</label>
+        <select name="provincie" id="provincie">
+          <option value="Limburg">Limburg</option>
+          <option value="Antwerpen">Antwerpen</option>
+          <option value="Oost-Vlaanderen">Oost-Vlaanderen</option>
+          <option value="Vlaams-Brabant">Vlaams-Brabant</option>
+          <option value="West-Vlaanderen">West-Vlaanderen</option>
+          <option value="Henegouwen">Henegouwen</option>
+          <option value="Luik">Luik</option>
+          <option value="Luxemburg">Luxemburg</option>
+          <option value="Namen">Namen</option>
+          <option value="Waals-Brabant">Waals-Brabant</option>
+        </select>
+      </div>
+
+      <div class="background">
+        <label for="geslacht" class="label">Geslacht</label>
+        <fieldset>
+          <label for="man">man</label>
+          <input
+            type="radio"
+            name="geslacht"
+            id="man"
+            class="input"
+            value="Man"
+          />
+          <label for="vrouw">Vrouw</label>
+          <input
+            type="radio"
+            name="geslacht"
+            id="vrouw"
+            class="input"
+            value="Vrouw"
+          />
+          <label for="ander">Ander</label>
+          <input
+            type="radio"
+            name="geslacht"
+            id="ander"
+            class="input"
+            value="Ander"
+          />
+        </fieldset>
+      </div>
+      <div>
+        <input type="submit" value="Registreren" />
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+form
+{
+    width: 20%;
+}
+
+.input{
+    display: block;
+}
+
+.input:focus{
+    background-color: white;
+}

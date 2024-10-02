@@ -1,0 +1,27 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input{
+    text-align: left;
+    font-size: 12px;
+}
+
+.background{
+    background-color: blanchedalmond;
+    border: 1px solid;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+form{
+    width: 25%;
+}
+
+.label{
+    background-color: rgb(82, 29, 5);
+    color: white;
+    padding: 15px;
+    margin-left: 15px;
+    
+}
